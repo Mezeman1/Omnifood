@@ -1,0 +1,189 @@
+/*-----------------------------*/
+/* desktop                      */
+/*-----------------------------*/
+@media only screen and (max-width: 1200px){
+    
+    .hero-text-box{
+    width: 100%;
+    padding: 0 2%;
+    }   
+    
+    .row{
+        padding: 0 2%;
+    }  
+    
+    
+}
+
+/*-----------------------------*/
+/* Small tablets to big tablets from 767px to 1023px */
+/*-----------------------------*/
+@media only screen and (max-width: 1023px){
+    body{font-size: 16px;}
+    section { padding : 60px 0}
+    
+    .long-copy{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .works-step{
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .works-step:first-of-type{
+        margin-top: 30px; 
+    }
+    
+    .app-screen{
+        width: 40%;
+        margin: 0 10% 0 50%;
+    }
+    .works-step div{
+        margin-right: 25px; 
+    }
+    
+    .btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+    
+    
+    
+    .icon-list{
+        margin-left: 10px; 
+    }
+    .para-list{
+        margin-left: 10px;
+    }
+    
+}
+
+/*-----------------------------*/
+/* Small phones to small tablets from 481px to 767px */
+/*-----------------------------*/
+@media only screen and (max-width: 767px){
+    body{
+        font-size: 14px;
+    }
+    .logo{
+        margin-top: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    .main-nav{
+        margin-top: 30px;
+    }
+    
+    .main-nav li{
+    margin: 0 0 0 20px;
+}
+    
+    .main-nav li a:link, .main-nav li a:visited{
+    font-size: 80%;
+}
+    
+    .section-features .long-copy{
+        margin-bottom: 10px;
+        font-size: 120%;
+        font-weight: 400;
+    }
+    .p-box .icon-big{
+    margin-bottom: 10px;
+    }
+    .p-box{
+        text-align: center;
+        font-size: 120%;
+        font-weight: 400;
+    }
+    h3{
+        font-weight: 300;
+    }
+    
+    
+    .app-screen{
+        width: 150px;
+        margin: 0 auto;
+    }
+    .btn-app img{
+        margin: 0;
+    }
+    .works-step{
+        width: 120%;
+        margin-left: -20%;
+        padding: 2%
+    }
+    .works-step p{
+        margin-top: 10px;
+    }
+    .works-step:last-of-type{
+        margin-top: 0;
+    }
+    .works-step div{
+        padding: 3%;
+        margin-right: 10px;
+    }
+    .works-step:first-of-type{
+        margin-top: 30px; 
+    }
+    
+    .section-cities .span-1-of-4{
+        width: 100%;
+    }
+    
+}
+
+
+
+/*-----------------------------*/
+/* Small phones from 0 to 480px */
+/*-----------------------------*/
+@media only screen and (max-width: 480px){
+    body{font-size: 14px;}
+    .section-features .long-copy{
+        margin-bottom: 30px;
+    }
+    .section-steps h2 {
+        font-size: 130%;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    
+    .app-screen{
+        width: 30%;
+        margin: 0 35% 0 35%;
+    }
+    .btn-app img{
+        margin: auto;
+    }
+    .works-step{
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+        padding: 2%
+    }
+    .works-step p{
+        margin-top: 10px;
+    }
+    .works-step:last-of-type{
+        margin-top: 0;
+    }
+    .works-step div{
+        padding: 3%;
+        margin-right: 10px;
+    }
+    
+    .icon-list{
+        width: 10%;
+        margin: 0 0 0 30%;
+    }
+    
+    .para-list{
+        width: 60%;
+        margin: 0 0 0 0%;
+    }
+      
+}
